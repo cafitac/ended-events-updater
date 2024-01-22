@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "build": "npx esbuild ./src/ended_event_updater.js --bundle --platform=node --external:node:* --outfile=build/worker.js"
+  }
+}
